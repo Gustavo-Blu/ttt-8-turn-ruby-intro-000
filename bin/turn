@@ -3,6 +3,8 @@ require_relative '../lib/turn.rb'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-10.times do
+counter = 0
+while counter < 10
   turn(board)
+  counter += 1
 end
