@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn.rb'
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+10.times do
+  turn(board)
+end
