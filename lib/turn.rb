@@ -13,7 +13,7 @@ def turn(board)
     turn(board)
 
 
-  
+
 end
 
 def display_board(board)
