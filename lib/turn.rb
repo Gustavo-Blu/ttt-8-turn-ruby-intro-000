@@ -4,14 +4,14 @@ def turn(board)
   display_board(board)
 
   puts "Please enter 1-9:"
-  move = get.strip
+  input = get.strip
   index = input_to_index(input)
 
   if valid_move?(board, index)
     move(board, index)
   else
     puts "Please enter 1-9:"
-    move = get.strip
+    input = get.strip
   end
 end
 
