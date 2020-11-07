@@ -1,12 +1,16 @@
 def turn(board)
   counter = 0
 
+  index = 0
+
   while valid_move?(index) != true
     puts "Please enter 1-9:"
     input = get.strip
     index = input_to_index(input)
     counter += 1
   end
+
+  move(board, index)
 end
 
 def display_board(board)
