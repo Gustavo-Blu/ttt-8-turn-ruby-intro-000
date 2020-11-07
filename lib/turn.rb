@@ -10,6 +10,7 @@ def turn(board)
 
   move(board, index)
   display_board(board)
+  index = 0
 end
 
 def display_board(board)
